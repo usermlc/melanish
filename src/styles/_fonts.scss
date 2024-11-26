@@ -1,0 +1,31 @@
+// Define the DM Mono font with normal weight and style
+@font-face {
+  font-family: 'DM Mono'; // Name of the font to use in CSS
+  src: url('../fonts/DMMono-Regular.ttf') format('truetype'); // Path to the font file in TTF format
+  font-weight: normal; // Regular weight
+  font-style: normal; // No italic or oblique
+}
+
+// Define the Nympha Trial font with normal weight and style
+@font-face {
+  font-family: 'Nympha Trial'; // Name of the font to use in CSS
+  src: url('../fonts/NymphaTrial-Regular.ttf') format('truetype'); // Path to the font file in TTF format
+  font-weight: normal; // Regular weight
+  font-style: normal; // No italic or oblique
+}
+
+// Define the SF Pro Display font (Regular weight)
+@font-face {
+  font-family: 'SF Pro Display'; // Name of the font to use in CSS
+  src: url('../fonts/SF-Pro-Display-Regular.otf') format('opentype'); // Path to the font file in OTF format
+  font-weight: normal; // Regular weight
+  font-style: normal; // No italic or oblique
+}
+
+// Define the SF Pro Display font (Medium weight)
+@font-face {
+  font-family: 'SF Pro Display'; // Name of the font to use in CSS
+  src: url('../fonts/SF-Pro-Display-Medium.otf') format('opentype'); // Path to the font file in OTF format
+  font-weight: medium; // Medium weight for variation
+  font-style: normal; // No italic or oblique
+}

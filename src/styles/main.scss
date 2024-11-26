@@ -1,0 +1,14 @@
+// Import custom font styles from a separate SCSS file
+@import '.\_fonts.scss';
+
+// Include Tailwind's base styles
+// This layer includes the default styles for elements (e.g., resets, typography defaults)
+@tailwind base;
+
+// Include Tailwind's component styles
+// This layer includes pre-designed classes for components (e.g., buttons, forms)
+@tailwind components;
+
+// Include Tailwind's utility classes
+// This layer includes all utility classes (e.g., padding, margin, flex, grid)
+@tailwind utilities;
